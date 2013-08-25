@@ -44,6 +44,7 @@ dictEntry *dictFind(dict *d, const void *key);
 void *dictFetchValue(dict *d, const void *key);
 void dictRelease(dict *d);
 void dictEmpty(dict *d);
-dictResize()
+int dictResize(dict *d);
+int dictExpand(dict *d);
 
 #endif //__HASHTABLE_H
