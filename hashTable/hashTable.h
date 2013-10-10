@@ -32,6 +32,7 @@ typedef struct dict
     dictType *type;
     void *privateData;
     dictht ht[2];
+    //记录rehash进度的标志，值为-1表示rehash未进行
     int rehashidx;
     int iterators;
 }dict;

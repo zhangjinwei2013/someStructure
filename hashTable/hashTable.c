@@ -4,6 +4,8 @@
 
 #define DICT_OK 0
 
+#define dictIsRehashing(ht) ((ht)->rehashidx != -1)
+
 static int _dictInit(dict *d, dictType *type, void *privateData);
 
 dict *dictCreate(dictType *type, void *privateData)
@@ -23,7 +25,7 @@ _dictReset(dictht *ht)
 
 int _dictInit(dict *d, dictType *type, void *privateData)
 {
-    _dictReset(&d->ht[0]);
+    _dictReset(&d->ht[0]);//d->ht[0]的type 为 dichht
     _dictReset(&d->ht[1]);
     d->type = type;
     d->privateData = privateData;
@@ -32,7 +34,13 @@ int _dictInit(dict *d, dictType *type, void *privateData)
     return DICT_OK;
 }
 
+dictEntry *_dictAddRaw(dict *d,void *key)
+{
+    
+}
+
 int dictAdd(dict *d, void *key, void *val)
 {
+    dictEntry *entry = _dictAddRaw(d,key);
     return DICT_OK;
 }
