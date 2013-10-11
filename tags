@@ -1,0 +1,122 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BIG_ENDIAN	.\hashTable\config.h	119;"	d
+BYTE_ORDER	.\hashTable\config.h	126;"	d
+BYTE_ORDER	.\hashTable\config.h	136;"	d
+BYTE_ORDER	.\hashTable\config.h	144;"	d
+BYTE_ORDER	.\hashTable\config.h	146;"	d
+DICT_OK	.\hashTable\hashTable.c	5;"	d	file:
+GNUC_VERSION	.\hashTable\config.h	161;"	d
+HAVE_ATOMIC	.\hashTable\config.h	163;"	d
+HAVE_BACKTRACE	.\hashTable\config.h	60;"	d
+HAVE_EPOLL	.\hashTable\config.h	65;"	d
+HAVE_EVPORT	.\hashTable\config.h	75;"	d
+HAVE_KQUEUE	.\hashTable\config.h	69;"	d
+HAVE_MALLOC_SIZE	.\hashTable\zmalloc.h	42;"	d
+HAVE_MALLOC_SIZE	.\hashTable\zmalloc.h	52;"	d
+HAVE_MALLOC_SIZE	.\hashTable\zmalloc.h	60;"	d
+HAVE_PROC_MAPS	.\hashTable\config.h	49;"	d
+HAVE_PROC_SMAPS	.\hashTable\config.h	50;"	d
+HAVE_PROC_STAT	.\hashTable\config.h	48;"	d
+HAVE_SYNC_FILE_RANGE	.\hashTable\config.h	93;"	d
+HAVE_SYNC_FILE_RANGE	.\hashTable\config.h	97;"	d
+HAVE_TASKINFO	.\hashTable\config.h	55;"	d
+LITTLE_ENDIAN	.\hashTable\config.h	118;"	d
+MyData_T	.\pthread\pthread_mutex.c	/^}MyData_T;$/;"	t	typeref:struct:MyData_TAG	file:
+MyData_TAG	.\pthread\pthread_mutex.c	/^typedef struct MyData_TAG$/;"	s	file:
+PDP_ENDIAN	.\hashTable\config.h	120;"	d
+PREFIX_SIZE	.\hashTable\zmalloc.c	48;"	d	file:
+PREFIX_SIZE	.\hashTable\zmalloc.c	51;"	d	file:
+PREFIX_SIZE	.\hashTable\zmalloc.c	53;"	d	file:
+ZMALLOC_LIB	.\hashTable\zmalloc.h	39;"	d
+ZMALLOC_LIB	.\hashTable\zmalloc.h	49;"	d
+ZMALLOC_LIB	.\hashTable\zmalloc.h	65;"	d
+__CONFIG_H	.\hashTable\config.h	31;"	d
+__HASHTABLE_H	.\hashTable\hashTable.h	3;"	d
+__ZMALLOC_H	.\hashTable\zmalloc.h	32;"	d
+__str	.\hashTable\zmalloc.h	36;"	d
+__xstr	.\hashTable\zmalloc.h	35;"	d
+_dictAddRaw	.\hashTable\hashTable.c	/^dictEntry *_dictAddRaw(dict *d,void *key)$/;"	f
+_dictInit	.\hashTable\hashTable.c	/^int _dictInit(dict *d, dictType *type, void *privateData)$/;"	f
+_dictReset	.\hashTable\hashTable.c	/^_dictReset(dictht *ht)$/;"	f
+aof_fsync	.\hashTable\config.h	81;"	d
+aof_fsync	.\hashTable\config.h	83;"	d
+calloc	.\hashTable\zmalloc.c	60;"	d	file:
+calloc	.\hashTable\zmalloc.c	65;"	d	file:
+dict	.\hashTable\hashTable.h	/^typedef struct dict$/;"	s
+dict	.\hashTable\hashTable.h	/^}dict;$/;"	t	typeref:struct:dict
+dictAdd	.\hashTable\hashTable.c	/^int dictAdd(dict *d, void *key, void *val)$/;"	f
+dictCreate	.\hashTable\hashTable.c	/^dict *dictCreate(dictType *type, void *privateData)$/;"	f
+dictEntry	.\hashTable\hashTable.h	/^typedef struct dictEntry$/;"	s
+dictEntry	.\hashTable\hashTable.h	/^}dictEntry;$/;"	t	typeref:struct:dictEntry
+dictIsRehashing	.\hashTable\hashTable.c	7;"	d	file:
+dictType	.\hashTable\hashTable.h	/^typedef struct dictType$/;"	s
+dictType	.\hashTable\hashTable.h	/^}dictType;$/;"	t	typeref:struct:dictType
+dictht	.\hashTable\hashTable.h	/^typedef struct dictht$/;"	s
+dictht	.\hashTable\hashTable.h	/^}dictht;$/;"	t	typeref:struct:dictht
+free	.\hashTable\zmalloc.c	62;"	d	file:
+free	.\hashTable\zmalloc.c	67;"	d	file:
+fun1	.\pthread\pthread_mutex.c	/^void *fun1(void *arg)$/;"	f
+fun2	.\pthread\pthread_mutex.c	/^void *fun2(void *arg)$/;"	f
+hashFunction	.\hashTable\hashTable.h	/^    unsigned int (*hashFunction)(const void *key);$/;"	m	struct:dictType
+ht	.\hashTable\hashTable.h	/^    dictht ht[2];$/;"	m	struct:dict
+iterators	.\hashTable\hashTable.h	/^    int iterators;$/;"	m	struct:dict
+key	.\hashTable\hashTable.h	/^    void *key;$/;"	m	struct:dictEntry
+main	.\hashTable\testHashTable.c	/^int main()$/;"	f
+main	.\pthread\pthread_mutex.c	/^int main()$/;"	f
+malloc	.\hashTable\zmalloc.c	59;"	d	file:
+malloc	.\hashTable\zmalloc.c	64;"	d	file:
+mutex	.\pthread\pthread_mutex.c	/^	pthread_mutex_t mutex;$/;"	m	struct:MyData_TAG	file:
+next	.\hashTable\hashTable.h	/^    struct dictEntry *next;$/;"	m	struct:dictEntry	typeref:struct:dictEntry::dictEntry
+privateData	.\hashTable\hashTable.h	/^    void *privateData;$/;"	m	struct:dict
+rdb_fsync_range	.\hashTable\config.h	103;"	d
+rdb_fsync_range	.\hashTable\config.h	105;"	d
+realloc	.\hashTable\zmalloc.c	61;"	d	file:
+realloc	.\hashTable\zmalloc.c	66;"	d	file:
+redis_fstat	.\hashTable\config.h	39;"	d
+redis_fstat	.\hashTable\config.h	42;"	d
+redis_stat	.\hashTable\config.h	40;"	d
+redis_stat	.\hashTable\config.h	43;"	d
+rehashidx	.\hashTable\hashTable.h	/^    int rehashidx;$/;"	m	struct:dict
+s64	.\hashTable\hashTable.h	/^        int64_t s64;$/;"	m	union:dictEntry::__anon1
+size	.\hashTable\hashTable.h	/^    unsigned long size;$/;"	m	struct:dictht
+sizeumask	.\hashTable\hashTable.h	/^    unsigned long sizeumask;$/;"	m	struct:dictht
+table	.\hashTable\hashTable.h	/^    dictEntry **table;$/;"	m	struct:dictht
+test	.\pthread\pthread_mutex.c	/^MyData_T test = {PTHREAD_MUTEX_INITIALIZER,0};$/;"	v
+type	.\hashTable\hashTable.h	/^    dictType *type;$/;"	m	struct:dict
+u64	.\hashTable\hashTable.h	/^        uint64_t u64;$/;"	m	union:dictEntry::__anon1
+update_zmalloc_stat_add	.\hashTable\zmalloc.c	71;"	d	file:
+update_zmalloc_stat_add	.\hashTable\zmalloc.c	74;"	d	file:
+update_zmalloc_stat_alloc	.\hashTable\zmalloc.c	88;"	d	file:
+update_zmalloc_stat_free	.\hashTable\zmalloc.c	98;"	d	file:
+update_zmalloc_stat_sub	.\hashTable\zmalloc.c	72;"	d	file:
+update_zmalloc_stat_sub	.\hashTable\zmalloc.c	80;"	d	file:
+used	.\hashTable\hashTable.h	/^    unsigned long used;$/;"	m	struct:dictht
+used_memory	.\hashTable\zmalloc.c	/^static size_t used_memory = 0;$/;"	v	file:
+used_memory_mutex	.\hashTable\zmalloc.c	/^pthread_mutex_t used_memory_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+v	.\hashTable\hashTable.h	/^    }v;$/;"	m	struct:dictEntry	typeref:union:dictEntry::__anon1
+val	.\hashTable\hashTable.h	/^        void *val;$/;"	m	union:dictEntry::__anon1
+value	.\pthread\pthread_mutex.c	/^	int value;$/;"	m	struct:MyData_TAG	file:
+zcalloc	.\hashTable\zmalloc.c	/^void *zcalloc(size_t size) {$/;"	f
+zfree	.\hashTable\zmalloc.c	/^void zfree(void *ptr) {$/;"	f
+zlibc_free	.\hashTable\zmalloc.c	/^void zlibc_free(void *ptr) {$/;"	f
+zmalloc	.\hashTable\zmalloc.c	/^void *zmalloc(size_t size) {$/;"	f
+zmalloc_default_oom	.\hashTable\zmalloc.c	/^static void zmalloc_default_oom(size_t size) {$/;"	f	file:
+zmalloc_enable_thread_safeness	.\hashTable\zmalloc.c	/^void zmalloc_enable_thread_safeness(void) {$/;"	f
+zmalloc_get_fragmentation_ratio	.\hashTable\zmalloc.c	/^float zmalloc_get_fragmentation_ratio(void) {$/;"	f
+zmalloc_get_private_dirty	.\hashTable\zmalloc.c	/^size_t zmalloc_get_private_dirty(void) {$/;"	f
+zmalloc_get_rss	.\hashTable\zmalloc.c	/^size_t zmalloc_get_rss(void) {$/;"	f
+zmalloc_oom_handler	.\hashTable\zmalloc.c	/^static void (*zmalloc_oom_handler)(size_t) = zmalloc_default_oom;$/;"	v	file:
+zmalloc_set_oom_handler	.\hashTable\zmalloc.c	/^void zmalloc_set_oom_handler(void (*oom_handler)(size_t)) {$/;"	f
+zmalloc_size	.\hashTable\zmalloc.c	/^size_t zmalloc_size(void *ptr) {$/;"	f
+zmalloc_size	.\hashTable\zmalloc.h	43;"	d
+zmalloc_size	.\hashTable\zmalloc.h	53;"	d
+zmalloc_size	.\hashTable\zmalloc.h	61;"	d
+zmalloc_thread_safe	.\hashTable\zmalloc.c	/^static int zmalloc_thread_safe = 0;$/;"	v	file:
+zmalloc_used_memory	.\hashTable\zmalloc.c	/^size_t zmalloc_used_memory(void) {$/;"	f
+zrealloc	.\hashTable\zmalloc.c	/^void *zrealloc(void *ptr, size_t size) {$/;"	f
+zstrdup	.\hashTable\zmalloc.c	/^char *zstrdup(const char *s) {$/;"	f
