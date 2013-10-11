@@ -10,8 +10,9 @@ int main()
     char line[SIZE] = {0};
     int seconds;
     char msg[SIZE];
-    while (true)
+    while (1)
     {
+        printf("alarm\n");
         if (fgets(line,sizeof(line),stdin) == NULL)
             return -1;
         if (strlen(line) <= 1)
