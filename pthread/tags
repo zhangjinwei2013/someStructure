@@ -1,12 +1,30 @@
-Malarm_fork	alarm_fork.c	/^int main()$/
-Malarm_normal	alarm_normal.c	/^int main()$/
-Mpthread_mutex	pthread_mutex.c	/^int main()$/
-MyData_T	pthread_mutex.c	10
-MyData_TAG	pthread_mutex.c	6
-SIZE	alarm_fork.c	6
-SIZE	alarm_normal.c	6
-fun1	pthread_mutex.c	/^void *fun1(void *arg)$/
-fun2	pthread_mutex.c	/^void *fun2(void *arg)$/
-mutex	pthread_mutex.c	8
-test	pthread_mutex.c	12
-value	pthread_mutex.c	9
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DPRINTF	.\errors.h	11;"	d
+DPRINTF	.\errors.h	13;"	d
+ERROR_H_	.\errors.h	2;"	d
+MS	.\alarm_fork.c	8;"	d	file:
+MyData_T	.\pthread_mutex.c	/^}MyData_T;$/;"	t	typeref:struct:MyData_TAG	file:
+MyData_TAG	.\pthread_mutex.c	/^typedef struct MyData_TAG$/;"	s	file:
+SIZE	.\alarm_normal.c	7;"	d	file:
+SIZE	.\alarm_threads.c	4;"	d	file:
+TAlarm	.\alarm_threads.c	/^}TAlarm;$/;"	t	typeref:struct:__AlarmTAG	file:
+__AlarmTAG	.\alarm_threads.c	/^typedef struct __AlarmTAG$/;"	s	file:
+err_abort	.\errors.h	16;"	d
+errno_abort	.\errors.h	21;"	d
+fun1	.\pthread_mutex.c	/^void *fun1(void *arg)$/;"	f
+fun2	.\pthread_mutex.c	/^void *fun2(void *arg)$/;"	f
+func	.\alarm_threads.c	/^void *func(void *arg)$/;"	f
+main	.\alarm_fork.c	/^int main()$/;"	f
+main	.\alarm_normal.c	/^int main()$/;"	f
+main	.\alarm_threads.c	/^int main()$/;"	f
+main	.\pthread_mutex.c	/^int main()$/;"	f
+msg	.\alarm_threads.c	/^    char msg[SIZE];$/;"	m	struct:__AlarmTAG	file:
+mutex	.\pthread_mutex.c	/^	pthread_mutex_t mutex;$/;"	m	struct:MyData_TAG	file:
+seconds	.\alarm_threads.c	/^    int seconds;$/;"	m	struct:__AlarmTAG	file:
+test	.\pthread_mutex.c	/^MyData_T test = {PTHREAD_MUTEX_INITIALIZER,0};$/;"	v
+value	.\pthread_mutex.c	/^	int value;$/;"	m	struct:MyData_TAG	file:

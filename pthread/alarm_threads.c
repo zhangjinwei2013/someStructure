@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <pthread.h>
-#include <unistd.h>
+#include "errors.h"
 
 #define SIZE 512
 
@@ -41,16 +38,22 @@ int main()
             continue;
         if (sscanf(line,"%d %64[^\n]",&(alarm.seconds),alarm.msg) < 2)
         {       
+            /*
             printf("sorry,bad command\n");
             return -1;
+            */
+            errno_abort("sorry,bad input\n");            
         }
         else
         {
             rv = pthread_create(&pthread,NULL,func,&alarm);
             if (rv != 0)
             {
+                /*
                 printf("create\n");
                 exit(EXIT_FAILURE);
+                */
+                err_abort(rv,"create\n");
             }
         }
     }
