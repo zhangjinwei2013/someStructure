@@ -1,0 +1,12 @@
+Malarm_fork	alarm_fork.c	/^int main()$/
+Malarm_normal	alarm_normal.c	/^int main()$/
+Mpthread_mutex	pthread_mutex.c	/^int main()$/
+MyData_T	pthread_mutex.c	10
+MyData_TAG	pthread_mutex.c	6
+SIZE	alarm_fork.c	6
+SIZE	alarm_normal.c	6
+fun1	pthread_mutex.c	/^void *fun1(void *arg)$/
+fun2	pthread_mutex.c	/^void *fun2(void *arg)$/
+mutex	pthread_mutex.c	8
+test	pthread_mutex.c	12
+value	pthread_mutex.c	9

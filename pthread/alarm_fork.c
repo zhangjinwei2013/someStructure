@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include <types.h>
+#include <sys/types.h>
 #include <wait.h>
 
 #define MS 512
@@ -21,7 +21,10 @@ int main()
         if (strlen(line) < 1)
             continue;
         if (sscanf(line,"%d %64[^\n]",&seconds,msg) < 2)
+        {
             printf("bad input\n");
+            exit(EXIT_FAILURE);
+        }
         else
         {
             pid = fork();
@@ -44,7 +47,7 @@ int main()
                         printf("waitpid\n");
                         exit(EXIT_FAILURE);
                     }
-                } while(pid != (pid_t)0)
+                } while(pid != (pid_t)0);
             }
         }
     }

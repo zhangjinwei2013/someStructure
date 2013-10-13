@@ -63,6 +63,6 @@ int main()
 	pthread_join(pthread1,NULL);
 	pthread_join(pthread2,NULL);
 	pthread_mutex_destroy(&(test.mutex));
-       // printf("see you,bye~\n");
+    printf("see you,bye~\n");
 	return 0;
 }
